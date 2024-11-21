@@ -1,0 +1,272 @@
+html {
+  background-color: black;
+}
+
+
+.top{
+  font-size: 48px;
+  color: rgb(0, 0, 0);
+  font-family: 'tahoma';
+  position: absolute;
+top: -50%;
+}
+.seazon{
+  position: relative;
+  font-size: 28px;
+  text-decoration: none;
+  text-align: center;
+}
+.pip{
+  position: relative;
+  display: flex;
+flex-direction: row;
+align-items: center;
+text-align: center;
+width: 50%;
+left: 25%;
+
+}
+.mister{
+  position: relative;
+  width: 25%;
+}
+.verh {
+  background-color: white;
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+.rodri {
+  width: 100px;
+  height: 10px;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+}
+
+.photo {
+  
+  position: absolute;
+  width: 50%;
+  height: 850px;
+  left: 0px;
+  top: 99px;
+  background: url(589139354d190d687428a637e9cc7ed0.jpg);
+}
+
+.ronaldo {
+  position: relative;
+  height: 300px;
+  width: 750px;
+  top: 300px;
+  left: 60%;
+}
+
+.text {
+  /* Perfumes for the season */
+  position: relative;
+  top: 670px;
+  font-family: 'tahoma';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 84px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.alfa {
+  position: relative;
+  flex-direction: row;
+  display: flex;
+  width: 1352.9px;
+  height: 1184px;
+  left: 0px;
+  top: 1063px;
+}
+
+.messi {
+  position: absolute;
+  width: 1481.37px;
+  left: 116px;
+  top: 1663px;
+}
+
+.parfum1 {
+  position: absolute;
+  width: 256.67px;
+  height: 318px;
+  left: 13px;
+  top: 0px;
+  background: url(image.png);
+}
+
+.parfum2 {
+  /* image 4 */
+position: absolute;
+  align-items: center;
+  width: 252.86px;
+  height: 383px;
+  left: 440px;
+  top: 0px;
+  background: url(image.png);
+}
+
+.parfum3 {
+  /* image 7 */
+  position:absolute;
+  width: 232.49px;
+  height: 334px;
+  left: 1032px;
+  top: 0px;
+  background: url(image.png);
+}
+
+.parfum4 {
+position: absolute;
+  width: 275.9px;
+  height: 384px;
+  left: 1090px;
+  top: 0px;
+  background: url(image.png);
+}
+
+.white {
+  position: absolute;
+  width: 2195px;
+  height: 682px;
+  left: -698px;
+  top: 2012px;
+  background: #FFFFFF;
+  border-radius: 495px;
+}
+
+.colophoto {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  left: 1429px;
+  background: url(Jean-Paul-Gaultier-Le-Male-Eau-de-Toilette-Spray-600x600.jpg);
+  border-radius: 164px;
+}
+
+p {
+  font-family: 'tahoma';
+}
+
+.meloch {
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 84px;
+  text-align: center;
+  top: -400px;
+  position: absolute;
+}
+.dovn{
+  position: relative;
+  width: 100%;
+  top: 1500px;
+}
+.block{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+align-items: center;
+width: 25%;
+}
+.forum{
+width: 400px;
+height: 600px;
+transition-property: inherit;
+transition-duration: .4s;
+transform: scale(1);
+}
+.forum:hover{
+  width: 450px;
+  height: 650px;
+  transition-property: inherit;
+  transition-duration: .4s;
+  transform: scale(1.1);
+  }
+
+.time{
+  position: relative;
+  display: flex;
+flex-direction: row;
+align-items: center;
+
+left: 0%;
+top:700px;
+}
+
+.sniper{
+  width: 25%;
+  height: auto;
+
+    
+}
+
+.mirir{
+  position: absolute;
+  width: 442px;
+   height: 510px;
+    top: 90px;
+
+    transition-property: all;
+    transition-duration: .4s;
+    transform: scale(1);
+
+}
+.mirir:hover{
+  position: absolute;
+  width: 442px;
+   height: 510px;
+    top: 90px;
+
+    transition-property: all;
+    transition-duration: .4s;
+    transform: scale(1.1);
+
+}
+
+.pepsi{
+  position: absolute;
+  width: 382px;
+   height: 565px;
+    top: 35px;
+    transition-property: all;
+    transition-duration: .4s;
+    transform: scale(1);
+}
+.pepsi:hover{
+  position: absolute;
+  width: 432px;
+   height: 615px;
+    top: 35px;
+    transition-property: all;
+    transition-duration: .4s;
+    transform: scale(1.1);
+}
+.mozis{
+  position: absolute;
+  width: 482px;
+   height: 524px;
+    top: 100px;
+
+    transition-property: all;
+    transition-duration: .4s;
+    transform: scale(1);
+}
+.mozis:hover{
+  position: absolute;
+  width: 482px;
+   height: 524px;
+    top: 100px;
+
+    transition-property: all;
+    transition-duration: .4s;
+    transform: scale(1.1);
+}

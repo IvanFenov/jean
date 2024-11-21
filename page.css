@@ -1,0 +1,184 @@
+.dovn {
+  position: relative;
+  width: 100%;
+  top: 450px;
+}
+.dovn1{
+  position: relative;
+  width: 100%;
+  top: 500px;
+}
+
+.top {
+  font-size: 48px;
+  color: rgb(0, 0, 0);
+  font-family: 'tahoma';
+  position: absolute;
+  top: -50%;
+}
+
+.seazon {
+  position: relative;
+  font-size: 28px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.pip {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  left: 25%;
+
+}
+
+.mister {
+  position: relative;
+  width: 25%;
+  text-decoration: none;
+}
+
+.verh {
+  background-color: white;
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+html {
+  background-color: black;
+}
+
+.tik {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.forza {
+
+  width: 100%;
+  height: 50%;
+
+}
+
+.buy {
+  /* Rectangle 10 */
+
+  position: absolute;
+  width: 26%;
+  height: 101px;
+  left: 37%;
+
+
+  background: #D9D9D9;
+  border-radius: 203px;
+  text-align: center;
+  transition-property: inherit;
+  transition-duration: .4s;
+  transform: scale(1.2);
+}
+
+.buy:hover {
+  /* Rectangle 10 */
+
+  position: absolute;
+  width: 26%;
+  height: 101px;
+  left: 37%;
+
+
+  background: #d9d9d93a;
+  border-radius: 203px;
+  text-align: center;
+  transition-property: inherit;
+  transition-duration: .4s;
+  transform: scale(1.2);
+  box-shadow: 0px 0px 55px rgb(255, 255, 255);
+
+}
+
+.p {
+  font-size: 66px;
+  font-family: 'tahoma';
+  position: relative;
+  top: -55%;
+}
+
+.size {
+  width: 20%;
+
+}
+
+.bar {
+  box-sizing: border-box;
+  position: absolute;
+  width: 253px;
+  height: 253px;
+  border-radius: 100%;
+  background: #262626;
+  border: 3px solid #FFFFFF;
+  align-items: center;
+  transition-property: inherit;
+  transition-duration: .4s;
+  transform: scale(1);
+}
+
+.bar:hover {
+  box-sizing: border-box;
+  position: absolute;
+  width: 253px;
+  height: 253px;
+  border-radius: 100%;
+  background: #262626;
+  border: 3px solid #FFFFFF;
+  align-items: center;
+  transition-property: inherit;
+  transition-duration: .4s;
+  transform: scale(1.2);
+  box-shadow: 0px 0px 55px rgb(255, 255, 255);
+}
+
+.pi {
+  font-size: 66px;
+  font-family: 'tahoma';
+  position: absolute;
+  text-align: center;
+  left: 40px;
+  top: 15px;
+}
+
+.sitka {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  left: 0%;
+  top: 210px;
+}
+
+.balon {
+  width: 100%;
+  height: 100%;
+}
+
+.star {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+
+}
+
+.miy {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
