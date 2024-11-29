@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оплата</title>
+    <link rel="stylesheet" href="oplata.css">
+</head>
+<body>
+    <div class="payment-container">
+        <h1>Оплата</h1>
+        <form id="paymentForm">
+            <label for="cardName">Ім'я на карті:</label>
+            <input type="text" id="cardName" name="cardName" placeholder="Ваше ім'я" required>
+
+            <label for="cardNumber">Номер картки:</label>
+            <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19" required>
+
+            <label for="expiryDate">Термін дії:</label>
+            <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" maxlength="5" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="password" id="cvv" name="cvv" placeholder="123" maxlength="3" required>
+            <a href="index.html">
+            <button type="submit">Оплатити</button>
+            </a>
+        </form>
+        <p id="statusMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

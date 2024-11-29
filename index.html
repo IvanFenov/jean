@@ -4,62 +4,87 @@
     <head>
       <link rel="stylesheet" href="styles.css">
       <div class="verh">
-        <p class="top">menu</p>
-        <div class="pip">
-          <div class="mister">
-          <a href="page3.html">
-          <p class="seazon">winter</p>
-        </a>
-        </div>
-        <div class="mister">
-        <a href="page2.html">
-          <p class="seazon">sprint</p>
-        </a>
-        </div>
-        <div class="mister">
-        <a href="page5.html">
-          <p class="seazon">summer</p>
-        </a>
-        </div>
-        <div class="mister">
-        <a href="page4.html">
-          <p class="seazon">autumn</p>
-        </a>
-        </div>
-        </div>
+        <a href="index.html">
+          <p class="top">menu</p>
+          </a>
+          <div class="pip">
+            <div class="mister">
+              <a href="page3.html">
+              <p class="seazon">winter</p>
+              </a>
+            </div>
+            <div class="mister">
+              <a href="page2.html">
+              <p class="seazon">sprint</p>
+              </a>
+            </div>
+            <div class="mister">
+              <a href="page5.html">
+              <p class="seazon">summer</p>
+              </a>
+            </div>
+            <div class="mister">
+              <a href="page4.html">
+              <p class="seazon">autumn</p>
+              </a>
+            </div>
+          </div>
       </div>
     </head>
 
     <body>
-        <div class="rodri">
-          <p>y</p>
-        </div>
+
         <div>
           <img class="photo"
-            src="https://visionaryfragranceseu.com/cdn/shop/files/Photoroom_20240319_173827_93c569b7-3b47-4d65-96ba-2d1405245d74.jpg?v=1714427072">
+            src="img/Рефы.jpg">
           <img class="ronaldo"
             src="https://www.scentstore.com/wp-content/uploads/elementor/thumbs/Jean-Paul-Gaultier-Fragrances-pspy6hc93j5u92de12cdmrqyxty8n6m5dn9xh4wseo.png">
         </div>
         <p class="text">
           Perfumes for the season
         </p>
-        <div class="time">
-          <header class="sniper">
-            <img class="forum" src="img/img1.png">
-          </header>
-          <header class="sniper">
-            <img class="pepsi" src="img/img2.avif">
-          </header>
-          <header class="sniper">
-            <img class="mirir" src="img/img3.png">
-          </header>
-          <header class="sniper">
-            <img class="mozis" src="img/image 9.png">
-          </header>
-        </div>
+        <section class="carousel">
+          <div class="carousel-container">
+            
+              <div class="carousel-slide">
+                <a href="page4.html">
+                  <img class="" src="img/img2.avif" >
+                </a>
+              </div>
+            
+            
+              <div class="carousel-slide">
+                <a href="page5.html">
+                  <img class="list" src="img/img3.png" alt="Video Mode">  
+                </a>               
+              </div>
+            
+           
+              <div class="carousel-slide">
+                <a href="page2.html">
+                  <img class="black-man" src="img/img1.webp" alt="Portrait Mode">      
+                </a>           
+                  </div>
+            
+            <a href="page3.html">
+                  <div class="carousel-slide">
+                    <a href="page3.html">
+                      <img class="blue-men" src="img/image 9.png" alt="head">  
+                    </a>                   
+                </div>
+            
+
+              
+          </div>
+          <button class="carousel-prev">‹</button>
+          <button class="carousel-next">›</button>
+      </section>
+  
         <header class="white">
           <img class="colophoto" src="img/car.jpg">
-          <p class="meloch">Oficial</p>
+          <a href="block.html">
+          <p class="meloch">LOG IN</p>
+        </a>
         </header>
         <script src="script.js"></script>
     </body>
@@ -69,3 +94,64 @@
       </footer>
 
   </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  const paymentForm = document.getElementById('paymentForm');
+const statusMessage = document.getElementById('statusMessage');
+
+paymentForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const cardName = document.getElementById('cardName').value.trim();
+    const cardNumber = document.getElementById('cardNumber').value.trim();
+    const expiryDate = document.getElementById('expiryDate').value.trim();
+    const cvv = document.getElementById('cvv').value.trim();
+
+    // Простий алгоритм перевірки введених даних
+    if (!cardNumber.match(/^\d{16}$/)) {
+        statusMessage.textContent = 'Номер картки має містити 16 цифр!';
+        statusMessage.style.color = 'red';
+        return;
+    }
+
+    if (!expiryDate.match(/^(0[1-9]|1[0-2])\/\d{2}$/)) {
+        statusMessage.textContent = 'Некоректний формат терміну дії (MM/YY)!';
+        statusMessage.style.color = 'red';
+        return;
+    }
+
+    if (!cvv.match(/^\d{3}$/)) {
+        statusMessage.textContent = 'CVV має містити 3 цифри!';
+        statusMessage.style.color = 'red';
+        return;
+    }
+
+    // Симуляція успішної оплати
+    statusMessage.textContent = 'Оплата успішно виконана!';
+    statusMessage.style.color = 'green';
+
+    // Очистити форму
+    paymentForm.reset();
+});

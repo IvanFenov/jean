@@ -1,5 +1,6 @@
 html {
   background-color: black;
+  text-decoration: none;
 }
 
 
@@ -15,6 +16,7 @@ top: -50%;
   font-size: 28px;
   text-decoration: none;
   text-align: center;
+  text-decoration: none;
 }
 .pip{
   position: relative;
@@ -29,6 +31,7 @@ left: 25%;
 .mister{
   position: relative;
   width: 25%;
+  text-decoration: none;
 }
 .verh {
   background-color: white;
@@ -38,13 +41,7 @@ left: 25%;
   top: 0px;
   left: 0px;
 }
-.rodri {
-  width: 100px;
-  height: 10px;
-  top: 0px;
-  left: 0px;
-  background-color: white;
-}
+
 
 .photo {
   
@@ -52,7 +49,7 @@ left: 25%;
   width: 50%;
   height: 850px;
   left: 0px;
-  top: 99px;
+  top: 10%;
   background: url(589139354d190d687428a637e9cc7ed0.jpg);
 }
 
@@ -136,18 +133,17 @@ position: absolute;
 .white {
   position: absolute;
   width: 2195px;
-  height: 682px;
-  left: -698px;
-  top: 2012px;
+  height: 482px;
+  left: -798px;
+  top: 1812px;
   background: #FFFFFF;
   border-radius: 495px;
 }
-
 .colophoto {
   position: absolute;
-  width: 600px;
-  height: 600px;
-  left: 1429px;
+  width: 500px;
+  height: 500px;
+  left: 1589px;
   background: url(Jean-Paul-Gaultier-Le-Male-Eau-de-Toilette-Spray-600x600.jpg);
   border-radius: 164px;
 }
@@ -156,19 +152,17 @@ p {
   font-family: 'tahoma';
 }
 
-.meloch {
-  color: rgb(0, 0, 0);
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 84px;
-  text-align: center;
-  top: -400px;
+.meloch{
   position: absolute;
+  font-size: 150px;
+  color: #000000;
+  left: 44%;
+top: 0px;
 }
 .dovn{
   position: relative;
   width: 100%;
-  top: 1500px;
+  top: 600px;
 }
 .block{
   position: relative;
@@ -177,6 +171,7 @@ p {
 align-items: center;
 width: 25%;
 }
+
 .forum{
 width: 400px;
 height: 600px;
@@ -225,7 +220,6 @@ top:700px;
   width: 442px;
    height: 510px;
     top: 90px;
-
     transition-property: all;
     transition-duration: .4s;
     transform: scale(1.1);
@@ -270,3 +264,165 @@ top:700px;
     transition-duration: .4s;
     transform: scale(1.1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  background-color: #111;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header .menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+header .menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header .menu li .buy-button {
+  background-color: #007aff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to bottom, #111, #333);
+}
+
+.carousel {
+  position: relative;
+  max-width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 700px;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  text-align: center;
+}
+
+
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+.blue-men{
+margin-top: 3%;
+height: auto;
+width: 39%;
+
+}
+.black-man{
+  margin-top:-5%;
+height: auto;
+width: 50%;
+
+}
+.list{
+  margin-top: 3%;
+height: auto;
+width: 38%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
